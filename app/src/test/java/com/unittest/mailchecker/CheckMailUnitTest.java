@@ -13,6 +13,6 @@ import static org.junit.Assert.*;
 public class CheckMailUnitTest {
     @Test
     public void mail_isCorrect() {
-        assertTrue(checkMail("toto@openclassrooms.fr"));
+        assertTrue(checkMail("toto@gegemail.fr"));
     }
 }
