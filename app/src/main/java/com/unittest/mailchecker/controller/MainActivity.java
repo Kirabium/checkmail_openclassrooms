@@ -8,14 +8,13 @@ import android.view.View;
 import com.unittest.mailchecker.R;
 import com.unittest.mailchecker.databinding.ActivityMainBinding;
 
+import static com.unittest.mailchecker.utils.MailUtils.checkMail;
+
 public class MainActivity extends AppCompatActivity {
 
 
     private ActivityMainBinding binding;
 
-    public static boolean checkMail(String mail){
-        return mail.contains("@");
-    }
 
     private void initUI() {
         binding = ActivityMainBinding.inflate(getLayoutInflater());

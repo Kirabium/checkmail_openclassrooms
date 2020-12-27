@@ -2,7 +2,7 @@ package com.unittest.mailchecker;
 
 import org.junit.Test;
 
-import static com.unittest.mailchecker.controller.MainActivity.checkMail;
+import static com.unittest.mailchecker.utils.MailUtils.checkMail;
 import static org.junit.Assert.*;
 
 /**
